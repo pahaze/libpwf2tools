@@ -7,7 +7,7 @@ libpwf2tools is a suite of modding tools for the game "PaRappa the Rapper 2" rec
   * libpwf2log
 
 # Installing and using
-Currently, you must install from source. To build libpwf2tools currently, you need the following dependencies on your system: **CMake 3.5** (or newer) and a **C/C++ compiler**. At the root of the directory, you will need to run these commands:
+Currently, you must install from source. To build libpwf2tools currently, you need the following dependencies on your system: **CMake 3.5** (or newer), **Qt5** (or newer), and a **C/C++ compiler**. At the root of the directory, you will need to run these commands:
 
     mkdir build
     cd build
