@@ -1,6 +1,7 @@
-// Non-Qt headers \/
+// Non-Qt headers
 #include <pwf2tools/libpwf2log.h>
 
+// Namespaces
 namespace libpwf2log {
 	// Strings
 	QString logFile;

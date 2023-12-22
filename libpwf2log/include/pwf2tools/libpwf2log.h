@@ -1,18 +1,19 @@
+#pragma once
 #ifndef PWF2LOG_H
 #define PWF2LOG_H
-// Qt headers \/
+// Qt headers
 #include <QDateTime>
 #include <QDir>
 #include <QFile>
 #include <QString>
 #include <QStringLiteral>
 #include <QTextStream>
-// Non-Qt headers \/
+// Non-Qt headers
 #include <iostream>
 #include <string>
 #include <vector>
 
-// Log levels
+// Log Levels
 enum LOG_LEVELS {
 	LOG_ERROR,
 	LOG_INFO,

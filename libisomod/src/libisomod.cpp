@@ -1,13 +1,13 @@
-// Includes
+// Non-Qt headers
 #include <pwf2tools/libisomod.h>
 
+// Namespaces
 namespace libisomod {
 	// Initialization
 	int statusCode = -1;
 	std::string isomodError;
 	std::stringstream isomodOutput;
 
-	// Actual library usage
 	bool fileIsISO(byte *sector) {
 		// If the first byte of the sector equals 1 and comparing sector (+1) and CD001 is true (AKA == 0), return true!
 		if((sector[0] == 1) && (memcmp(sector + 1, "CD001", 5) == 0))

@@ -1,11 +1,13 @@
 #pragma once
 #ifndef LIBISOMOD_H
 #define LIBISOMOD_H
-// Includes
+// Non-Qt headers
 #include <cstring>
 #include <iostream>
 #include <sstream>
+#include <stdint.h>
 
+// Namespaces
 namespace libisomod {
 	// Defines
 	#define ALIGN(x, y) (((x) + ((y)-1)) & (~((y)-1)))
