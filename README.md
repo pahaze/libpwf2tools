@@ -1,6 +1,6 @@
 # <img src="img/pwf2tools-x64.png" align="center"> libpwf2tools - A suite of libraries for modding PTR2! </img>
 
-libpwf2tools is a suite of modding tools for the game "PaRappa the Rapper 2" recreated as normal C++ libraries. It is released under the GPLv3 license. It's free to use and open source (and always will be!). The icon is drawn by [@p4ckles](https://twitter.com/p4ckles). It currently only consists of libisomod and libpwf2log. libpwf2int, libpwf2spm, and libpwf2tex will come soon.
+libpwf2tools is a suite of modding tools for the game "PaRappa the Rapper 2" recreated as normal C++ libraries. It is released under the Unlicense. It's free to use and open source (and always will be!). The icon is drawn by [@p4ckles](https://twitter.com/p4ckles). It currently only consists of libisomod and libpwf2log. libpwf2int, libpwf2spm, and libpwf2tex will come soon.
 
 ## Currently finished -
   * libisomod
